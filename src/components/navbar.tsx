@@ -1,9 +1,7 @@
-
 export default function Navbar() {
     return (
-        <div >
-            <div className="navbar flex col-auto bg-opacity-30 bg-white justify-end shrink-0">
-                <div><a className="text-xl text-left"> Portfolio</a></div>
+        <div>
+            <div className="navbar flex col-end-13 backdrop-blur-sm bg-opacity-30 bg-white justify-end">
                 <div className="flex row-auto">
                     <a className="btn btn-ghost text-xl">About me</a>
                     <a className="btn btn-ghost text-xl">Education</a>
@@ -11,9 +9,7 @@ export default function Navbar() {
                     <a className="btn btn-ghost text-xl">Experience</a>
                     <a className="btn btn-ghost text-xl">Contact</a>
                 </div>
-
-
             </div>
         </div>
-    )
+    );
 }

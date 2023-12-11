@@ -23,27 +23,21 @@ body {
 }
 
 a {
-  font-family: 'Source Code Pro', monospace;
   font-weight: 400;
   font-size: 16;
 }
 
 h1 {
   font-size: 40px;
-  font-family: 'Source Code Pro', monospace;
   font-weight: bold;
 }
 
 h2 {
   font-size: 36px;
-  font-family: 'Source Code Pro', monospace;
-  ;
   font-weight: 550;
 }
 
 h3 {
   font-size: 20px;
-  font-family: 'Source Code Pro', monospace;
-
   font-weight: 400;
 }

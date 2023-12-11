@@ -8,11 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Source Code Pro', 'monospace'],
+
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      width: {
+        '500px': '500px',
+        '350px': '350px',
+        '800px': '800px',
+        '700px': '700px',
+      }
 
     },
   },

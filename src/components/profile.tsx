@@ -2,7 +2,7 @@ const backgroundImageUrl = 'https://media.discordapp.net/attachments/10277679732
 export default function ProfilePic() {
     return (
         <div >
-            <div className="w-48 h-48"
+            <div className="w-48 h-48 drop-shadow-lg "
                 style={{ backgroundImage: ` url(${backgroundImageUrl})`, backgroundSize: '100% 100%' }}>
             </div>
         </div>

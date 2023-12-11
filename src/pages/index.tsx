@@ -2,7 +2,8 @@
 import Navbar from '@/components/navbar'
 
 
-import About from './about'
+import About from './About'
+import Education from './Education'
 
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
     <div >
       <header className="fixed w-full"> <Navbar></Navbar></header>
       <main >
-        <About></About>
+        <Education></Education>
       </main>
       <footer></footer>
     </div>

@@ -18,9 +18,10 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       width: {
+        '400px': '400px',
         '500px': '500px',
         '350px': '350px',
-        '800px': '800px',
+        '850px': '850px',
         '700px': '700px',
       }
 

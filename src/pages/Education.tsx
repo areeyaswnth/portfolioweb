@@ -11,32 +11,38 @@ export default function Education() {
                 style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: '100% 100%' }}>
                 <div > <ProfilePic></ProfilePic></div>
             </div>
-            <div className="pt-5 text-center drop-shadow-md"><h1>Education</h1></div>
-            <div className=" p-3 flex justify-center">
-                <div className=" flex justify-center items-center w-850px  p-16 bg-white border border-slate-950 rounded-3xl shadow-xl ">
-                    <ol className="border-s border-gray-200 dark:border-gray-700">
-                        <li className="mb-10 ms-4">
-                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2021 - Now</time>
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">King Mongkut’s Institute of Technology Ladkrabang</h3>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">B.E. Bachelor of Engineering in Computer Engineering
-                                Bangkok,Thailand
-                            </p>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">GPA 3.27</p>
-                        </li>
-                        <li className="mb-10 ms-4">
-                            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2016-2019</time>
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Udonpittayanukul School</h3>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">High School Certificate in Mathematics and Science
-                                Udonthani,Thailand
-                            </p>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">GPA 3.91</p>
-                        </li>
 
-                    </ol>
+            <section className="bg-gray-100 text-gray-800">
+                <div className="container max-w-5xl px-4 py-12 mx-auto">
+                    <div className="grid gap-4 mx-4 sm:grid-cols-12">
+                        <div className="col-span-12 sm:col-span-3">
+                            <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-gray-500">
+                                <h3 className="text-3xl font-semibold">Education</h3>
+                            </div>
+                        </div>
+                        <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                            <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-gray-300">
+                                <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-gray-500">
+                                    <h3 className="text-xl font-semibold tracki">King Mongkut’s Institute of Technology Ladkrabang</h3>
+                                    <time className="text-xs tracki uppercase text-gray-600">2021 - Now</time>
+                                    <p className="mt-3">B.E. Bachelor of Engineering in Computer Engineering
+                                        Bangkok,Thailand</p>
+                                    <p className="mt-3">GPA 3.27</p>
+                                </div>
+                                <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-gray-500">
+                                    <h3 className="text-xl font-semibold tracki">Udonpittayanukul School</h3>
+                                    <time className="text-xs tracki uppercase text-gray-600">2016-2019</time>
+                                    <p className="mt-3">High School Certificate in Mathematics and Science
+                                        Udonthani,Thailand</p>
+                                    <p className="mt-3">GPA 3.91</p>
+                                </div>
 
-                </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <div className="flex   justify-center pb-10">
                 <button className="w-60  bg-white border border-slate-950 rounded-3xl shadow-xl hover:bg-gray-200">
                     <div className="flex justify-center p-4 flex-shrink-0">

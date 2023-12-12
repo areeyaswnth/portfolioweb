@@ -37,13 +37,13 @@ export default function Education() {
                     </ol>
 
                 </div></div>
-            <div className="flex pt-4  justify-center pb-10">
-                <button className="w-60 p-4 bg-white border border-slate-950 rounded-3xl shadow-xl">
-                    <div className="flex-shrink-0">
+            <div className="flex   justify-center pb-10">
+                <button className="w-60  bg-white border border-slate-950 rounded-3xl shadow-xl hover:bg-gray-200">
+                    <div className="flex justify-center p-4 flex-shrink-0">
                         <svg className="fill-current w-4 h-4 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                         </svg>
-                        <a className="text-black">Transcription.pdf</a></div>
+                        <a className="pl-2 text-black">Transcription.pdf</a></div>
                 </button></div>
         </div>
 

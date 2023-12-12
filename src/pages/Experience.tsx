@@ -11,7 +11,7 @@ export default function Contact() {
                 <div > <ProfilePic></ProfilePic></div>
             </div>
             <div className="pt-5 text-center"><h1>Contact</h1></div>
-            <div className=" p-3 flex justify-center"><ContactCard></ContactCard></div>
+
         </div>
 
     )

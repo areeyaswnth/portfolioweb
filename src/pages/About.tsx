@@ -17,6 +17,7 @@ export default function About() {
                     <a>   &nbsp; &nbsp; Being a third-year computer engineering student at King Mongkut's Institute of Technology Ladkrabang, I have a strong passion for software development. My primary goal is to enhance my learning experiences and continually improve my skills in this field.</a>
                 </div>
             </div>
+
             <div className="pt-5 text-center"><h1 className="drop-shadow-md">Personal Data</h1></div>
             <div className=" p-3 flex justify-center">
                 <div className="w-850px items-center justify-center  p-16 bg-white border border-slate-950 rounded-3xl shadow-xl ">

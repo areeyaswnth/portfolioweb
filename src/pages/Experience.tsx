@@ -3,7 +3,7 @@ import ProfilePic from "@/components/profile";
 
 const backgroundImageUrl = 'https://media.discordapp.net/attachments/1027767973286510602/1180814344049676368/Rectangle_3.png?ex=657eca0e&is=656c550e&hm=4e438f210be24066672e6ccbbef5aa0cd2b5dac88007a80bac655a26d393924f&=&format=webp&quality=lossless&width=1440&height=351';
 
-export default function Contact() {
+export default function Experience() {
     return (
         <div className="justify-center">
 
@@ -12,7 +12,7 @@ export default function Contact() {
                 <div > <ProfilePic></ProfilePic></div>
             </div>
             <div className="pt-5 text-center p-16"><h1>Experience</h1></div>
-            <div className="grid grid-cols-2 md:col-span-1 pl-40 pr-40">
+            <div className="grid lg:grid-cols-2 md:col-span-1 lg:pl-40 lg:pr-40 md:py-10 md:grid-cols-1">
                 <div className="flex justify-center">
                     <div className="flex-col">
                         <div className="flex flex-col w-400px md:w-400px p-10 bg-white border justify-center items-center border-slate-950 rounded-3xl shadow-xl">

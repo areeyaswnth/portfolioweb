@@ -16,7 +16,7 @@ export default function Activity() {
                     <div className="flex flex-col w-400px items-center justify-center p-10 bg-white border border-slate-950 rounded-3xl shadow-xl">
                         <a className="text-center text-2xl font-bold">Teaching Assistant</a>
                         <a className="text-center text-lg w-56 h-8 rounded-lg bg-gray-200  font-semibold"> Jan 2023 - Apr 2023</a>
-                        <a className="text-center text-lg">King Mongkut’s Institute of Technology Ladkrabang </a>
+                        <a className="text-center text-lg">King Mongkut&apos;s Institute of Technology Ladkrabang </a>
                         <a className="text-center text-base"> C Language</a>
 
                         <li className="text-sm">I worked as a teaching assistant for a computer programming at a university.

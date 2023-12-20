@@ -62,7 +62,7 @@ export default function Activity() {
 
             </div>
 
-            <div className=" p-3 flex justify-center">
+            <div className=" p-10 flex justify-center">
 
 
                 <div className="w-850px items-center justify-center p-4 bg-white border border-slate-950 rounded-3xl shadow-xl">
@@ -84,7 +84,7 @@ export default function Activity() {
                         </div>
                         <div>
                             <h3>Languages</h3>
-                            <div className="grid-cols-2">
+                            <div className="grid grid-cols-2 gap-x-10">
                                 <div>Python</div>
                                 <div>261</div>
                                 <div>SQL</div>

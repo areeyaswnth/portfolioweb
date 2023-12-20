@@ -1,6 +1,6 @@
 export default function ContactCard() {
     return (
-        <div className="w-400px items-center justify-center  p-16 bg-white border border-slate-950 rounded-3xl shadow-xl ">
+        <div className="w-400px items-center justify-  p-16 bg-white border border-slate-950 rounded-3xl shadow-xl ">
             <div className="flex">
                 <div className="flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

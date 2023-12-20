@@ -7,7 +7,7 @@ export default function About() {
     return (
         <div className="justify-center bg-gradient-to-t from-gray-100 ">
             <div className="h-72   flex justify-center items-end"
-                style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: '100% 100%' }}>
+                style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: "100% 100%" }}>
                 <div > <ProfilePic></ProfilePic></div>
             </div>
             <div className="pt-5 text-center drop-shadow-md"><h1>About me</h1></div>

@@ -51,17 +51,25 @@ export default function ContactCard() {
                 <a className="pl-3 ">github.com/areeyaswnth</a></div>
             <div className="flex justify-center items-center text-center ">
                 <div className="pl-1 pt-5">
-                    <button className="w-36  bg-white border border-slate-950 rounded-3xl shadow-xl hover:bg-gray-200">
-                        <div className="flex justify-center p-3">
-                            <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                            <a>CV.pdf</a></div>
-                    </button></div>
+                    <a
+                        href="https://drive.google.com/file/d/1e9vhYaPT0iLnP99YV90u2SsmBnblQGBj/view?usp=drive_link"
+                        target="_blank"
+                    >
+                        <button className="w-36  bg-white border border-slate-950 rounded-3xl shadow-xl hover:bg-gray-200">
+                            <div className="flex justify-center p-3">
+                                <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                                <a>CV.pdf</a></div>
+                        </button></a></div>
                 <div className="pl-1 pt-5">
-                    <button className="w-36  bg-white border border-slate-950 rounded-3xl shadow-xl hover:bg-gray-200">
-                        <div className="flex justify-center p-3">
-                            <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                            Resume.pdf</div>
-                    </button>
+                    <a
+                        href="https://drive.google.com/file/d/1VwGe7c-BYCit4aYddjY3hvbePg62CSpu/view?usp=drive_link"
+                        target="_blank"
+                    >
+                        <button className="w-36  bg-white border border-slate-950 rounded-3xl shadow-xl hover:bg-gray-200">
+                            <div className="flex justify-center p-3">
+                                <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                                Resume.pdf</div>
+                        </button></a>
                 </div>
             </div>
 

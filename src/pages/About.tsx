@@ -1,6 +1,5 @@
-import ContactCard from "@/components/contactcard";
+
 import ProfilePic from "@/components/profile";
-import { Container } from "@mui/material";
 
 const backgroundImageUrl = 'https://media.discordapp.net/attachments/1027767973286510602/1180814344049676368/Rectangle_3.png?ex=657eca0e&is=656c550e&hm=4e438f210be24066672e6ccbbef5aa0cd2b5dac88007a80bac655a26d393924f&=&format=webp&quality=lossless&width=1440&height=351';
 
@@ -14,7 +13,7 @@ export default function About() {
             <div className="pt-5 text-center drop-shadow-md"><h1>About me</h1></div>
             <div className=" p-3 flex justify-center">
                 <div className="w-850px items-center justify-center  p-16 bg-white border border-slate-950 rounded-3xl shadow-xl ">
-                    <a>   &nbsp; &nbsp; Being a third-year computer engineering student at King Mongkut's Institute of Technology Ladkrabang, I have a strong passion for software development. My primary goal is to enhance my learning experiences and continually improve my skills in this field.</a>
+                    <a>   Being a third-year computer engineering student at King Mongkut's Institute of Technology Ladkrabang, I have a strong passion for software development. My primary goal is to enhance my learning experiences and continually improve my skills in this field.</a>
                 </div>
             </div>
             <div className="pt-5 text-center"><h1 className="drop-shadow-md">Personal Data</h1></div>

@@ -1,10 +1,10 @@
-import ContactCard from "@/components/contactcard";
+
 import ProfilePic from "@/components/profile";
-import { Container } from "@mui/material";
+
 
 const backgroundImageUrl = 'https://media.discordapp.net/attachments/1027767973286510602/1180814344049676368/Rectangle_3.png?ex=657eca0e&is=656c550e&hm=4e438f210be24066672e6ccbbef5aa0cd2b5dac88007a80bac655a26d393924f&=&format=webp&quality=lossless&width=1440&height=351';
 
-export default function About() {
+export default function About_component() {
     return (
         <div className="justify-center bg-gradient-to-t from-gray-100 ">
             <div className="h-72   flex justify-center items-end"

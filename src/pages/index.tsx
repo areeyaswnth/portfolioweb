@@ -1,28 +1,25 @@
-import Navbar from '@/components/navbar'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from './About'
-import Education from './Education'
-import Contact from './Contact'
-import Experience from './Experience'
-import Activity from './Activity';
-
+import { useEffect } from 'react';
+import Navbar from '@/components/navbar';
+import About from './About';
+import Education from './Education';
+import Contact from './Contact';
+import Experience from './Experience';
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+
+  }, [router.pathname]);
+
   return (
     <div>
-      <Router>
-        <header className="fixed w-full"><Navbar /></header>
-        <main>
-          <Routes>
-            <Route path="/About" element={<About />} />
-            <Route path="/Education" element={<Education />} />
-            <Route path="/Experience" element={<Experience />} />
-            <Route path="/Activity" element={<Activity />} />
-            <Route path="/Contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <footer></footer>
-      </Router>
+      {router.pathname === '/' && <About />}
+      {router.pathname === '/Education' && <Education />}
+      {router.pathname === '/Experience' && <Experience />}
+      {router.pathname === '/Contact' && <Contact />}
+      <footer></footer>
     </div>
-  )
+  );
 }

@@ -10,6 +10,7 @@ export default function Navbar() {
                         <Link href="/" className="btn btn-ghost text-xl">About me </Link>
                         <Link href="/Education" className="btn btn-ghost text-xl">Education</Link>
                         <Link href="/Experience" className="btn btn-ghost text-xl">Experience</Link>
+                        <Link href="/Activity" className="btn btn-ghost text-xl">Activuty</Link>
                         <Link href="/Contact" className="btn btn-ghost text-xl">Contact </Link>
                     </div>
                 </div>

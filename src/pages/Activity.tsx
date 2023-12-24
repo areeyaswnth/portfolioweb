@@ -7,11 +7,18 @@ export default function Activity() {
     return (
         <div className="justify-center">
             <div className="h-72 flex justify-center items-end"
-                style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: "100% 100%" }}>
+                style={{
+                    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPositionY: "100%"
+                }}
+            >
+
                 <div > <ProfilePic></ProfilePic></div>
             </div>
-
-            <div className="grid grid-cols-2 md:col-span-1 pl-40 pr-40">
+            <div className="pt-5 text-center "><h1>Activity</h1></div>
+            <div className="grid lg:grid-cols-2  md:col-span-1 md:px-10 lg:pl-40 lg:pr-40">
                 <div className="flex justify-center items-center pt-10">
                     <div className="flex flex-col w-400px items-center justify-center p-10 bg-white border border-slate-950 rounded-3xl shadow-xl">
                         <a className="text-center text-2xl font-bold">Teaching Assistant</a>
@@ -68,7 +75,7 @@ export default function Activity() {
                 <div className="w-850px items-center justify-center p-4 bg-white border border-slate-950 rounded-3xl shadow-xl">
                     <div className="flex flex-row">
                         <div className="flex flex-col w-44 p-2 items-center justify-center rounded-3xl bg-gray-200">
-                            <a className="text-4xl"> 331 </a>
+                            <a className="text-4xl"> 338 </a>
                             <a className="text-lg text-center"> Problems solve </a>
                         </div>
                         <div className="py-2 px-10 ">
@@ -89,6 +96,8 @@ export default function Activity() {
                                 <div>261</div>
                                 <div>SQL</div>
                                 <div>71</div>
+                                <div>JavaScript</div>
+                                <div>11</div>
                             </div>
                         </div>
                     </div>

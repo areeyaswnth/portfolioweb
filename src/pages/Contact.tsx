@@ -7,7 +7,13 @@ export default function Contact() {
     return (
         <div className="justify-center">
             <div className="h-72 flex justify-center items-end"
-                style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: "100% 100%" }}>
+                style={{
+                    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPositionY: "100%"
+                }}
+            >
                 <div > <ProfilePic></ProfilePic></div>
             </div>
             <div className="pt-5 text-center"><h1>Contact</h1></div>

@@ -6,14 +6,20 @@ const backgroundImageUrl = "https://media.discordapp.net/attachments/10277679732
 export default function About() {
     return (
         <div className="justify-center bg-gradient-to-t from-gray-100 ">
-            <div className="h-72   flex justify-center items-end"
-                style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: "100% 100%" }}>
+            <div className="h-72 flex justify-center items-end"
+                style={{
+                    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPositionY: "100%"
+                }}
+            >
                 <div > <ProfilePic></ProfilePic></div>
             </div>
             <div className="pt-5 text-center drop-shadow-md"><h1>About me</h1></div>
             <div className=" p-3 flex justify-center">
                 <div className="w-850px items-center justify-center  p-16 bg-white border border-slate-950 rounded-3xl shadow-xl ">
-                    <a>   (&apos;) Being a third-year computer engineering student at King Mongkut&apos;s Institute of Technology Ladkrabang, I have a strong passion for software development. My primary goal is to enhance my learning experiences and continually improve my skills in this field.</a>
+                    <a>   &emsp;&emsp;&emsp;&emsp; Being a third-year computer engineering student at King Mongkut&apos;s Institute of Technology Ladkrabang, I have a strong passion for software development. My primary goal is to enhance my learning experiences and continually improve my skills in this field.</a>
                 </div>
             </div>
             <div className="pt-5 text-center"><h1 className="drop-shadow-md">Personal Data</h1></div>

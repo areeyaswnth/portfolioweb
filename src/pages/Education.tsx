@@ -6,8 +6,14 @@ const backgroundImageUrl = "https://media.discordapp.net/attachments/10277679732
 export default function Education() {
     return (
         <div className="justify-center bg-gradient-to-t from-gray-100  ">
-            <div className="h-72 flex justify-center items-end "
-                style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`, backgroundSize: "100% 100%" }}>
+            <div className="h-72 flex justify-center items-end"
+                style={{
+                    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.6)), url(${backgroundImageUrl})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPositionY: "100%"
+                }}
+            >
                 <div > <ProfilePic></ProfilePic></div>
             </div>
             <div className="flex flex-col  items-center justify-center p-10">
